@@ -1,7 +1,7 @@
 import csv
 import numpy as np
 
-with open("datasets/numbers.csv") as f:
+with open("numbers.csv") as f:
 	reader = csv.reader(f, delimiter=",")
 	num_list = list(reader)
 	
