@@ -2,7 +2,7 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 
-with open("datasets/numbers.csv") as f:
+with open("numbers.csv") as f:
 	reader = csv.reader(f, delimiter=",")
 	num_list_of_lists = list(reader)
 	
