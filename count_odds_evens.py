@@ -14,8 +14,8 @@ for i in range(0, len(num_list_of_lists)):
 np_list = np.array(num_list)
 np_list = np_list.astype(np.int)
 
-odds = 0
-evens = 0
+odds = 0.0
+evens = 0.0
 
 for i in range(0, len(np_list)):
 	if np_list[i] % 2 == 0:
