@@ -18,9 +18,9 @@ odds = 0
 evens = 0
 
 for i in range(0, len(np_list)):
-	if(np_list[i] % 2 == 0):
+	if np_list[i] % 2 == 0:
 		evens = evens + 1
-	if(np_list[i] % 2 == 1):
+	if np_list[i] % 2 == 1:
 		odds = odds + 1
 		
 labels = ["Odds", "Evens"]
